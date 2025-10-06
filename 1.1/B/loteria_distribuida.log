@@ -1,0 +1,296 @@
+2025-10-06 23:13:06,374 - LAS-1 - INFO - Rebut sorteig#1 -> 46; sense butlletes locals per a aquest sorteig
+2025-10-06 23:13:06,375 - LAS-2 - INFO - Rebut sorteig#1 -> 46; sense butlletes locals per a aquest sorteig
+2025-10-06 23:13:06,376 - Client-2 - INFO - Observat resultat: #1 -> 46
+2025-10-06 23:13:06,376 - Client-4 - INFO - Observat resultat: #1 -> 46
+2025-10-06 23:13:06,376 - DE - INFO - Anunciat sorteig #1 -> guanyador=46 (1..50)
+2025-10-06 23:13:06,376 - Client-1 - INFO - Observat resultat: #1 -> 46
+2025-10-06 23:13:06,377 - Client-5 - INFO - Observat resultat: #1 -> 46
+2025-10-06 23:13:06,377 - Client-3 - INFO - Observat resultat: #1 -> 46
+2025-10-06 23:13:06,584 - LAS-1 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54351): Ticket() takes no arguments
+2025-10-06 23:13:06,585 - Client-1 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:06,586 - Client-1 - INFO - Sol·licitada butlleta: sorteig#1 número=49 via TCP port 56101
+2025-10-06 23:13:06,586 - LAS-2 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54352): Ticket() takes no arguments
+2025-10-06 23:13:06,588 - LAS-2 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54353): Ticket() takes no arguments
+2025-10-06 23:13:06,589 - Client-3 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:06,589 - LAS-2 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54354): Ticket() takes no arguments
+2025-10-06 23:13:06,590 - Client-3 - INFO - Sol·licitada butlleta: sorteig#1 número=36 via TCP port 56102
+2025-10-06 23:13:06,590 - Client-4 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:06,591 - Client-5 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:06,591 - LAS-2 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54355): Ticket() takes no arguments
+2025-10-06 23:13:06,592 - Client-4 - INFO - Sol·licitada butlleta: sorteig#1 número=7 via TCP port 56102
+2025-10-06 23:13:06,593 - Client-5 - INFO - Sol·licitada butlleta: sorteig#1 número=26 via TCP port 56102
+2025-10-06 23:13:06,595 - Client-2 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:06,595 - Client-2 - INFO - Sol·licitada butlleta: sorteig#1 número=15 via TCP port 56102
+2025-10-06 23:13:08,604 - LAS-1 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54359): Ticket() takes no arguments
+2025-10-06 23:13:08,607 - LAS-1 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54361): Ticket() takes no arguments
+2025-10-06 23:13:08,608 - LAS-2 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54363): Ticket() takes no arguments
+2025-10-06 23:13:08,608 - Client-1 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:08,608 - LAS-2 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54360): Ticket() takes no arguments
+2025-10-06 23:13:08,608 - LAS-1 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54362): Ticket() takes no arguments
+2025-10-06 23:13:08,608 - Client-4 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:08,609 - Client-1 - INFO - Sol·licitada butlleta: sorteig#1 número=6 via TCP port 56101
+2025-10-06 23:13:08,609 - Client-5 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:08,609 - Client-3 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:08,610 - Client-2 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:08,610 - Client-4 - INFO - Sol·licitada butlleta: sorteig#1 número=50 via TCP port 56101
+2025-10-06 23:13:08,611 - Client-5 - INFO - Sol·licitada butlleta: sorteig#1 número=37 via TCP port 56102
+2025-10-06 23:13:08,611 - Client-3 - INFO - Sol·licitada butlleta: sorteig#1 número=15 via TCP port 56102
+2025-10-06 23:13:08,611 - Client-2 - INFO - Sol·licitada butlleta: sorteig#1 número=9 via TCP port 56101
+2025-10-06 23:13:10,623 - LAS-2 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54366): Ticket() takes no arguments
+2025-10-06 23:13:10,623 - LAS-1 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54368): Ticket() takes no arguments
+2025-10-06 23:13:10,624 - LAS-2 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54365): Ticket() takes no arguments
+2025-10-06 23:13:10,624 - Client-2 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:10,625 - Client-3 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:10,625 - Client-4 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:10,625 - Client-2 - INFO - Sol·licitada butlleta: sorteig#1 número=31 via TCP port 56102
+2025-10-06 23:13:10,625 - LAS-2 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54367): Ticket() takes no arguments
+2025-10-06 23:13:10,625 - Client-3 - INFO - Sol·licitada butlleta: sorteig#1 número=29 via TCP port 56102
+2025-10-06 23:13:10,626 - Client-4 - INFO - Sol·licitada butlleta: sorteig#1 número=22 via TCP port 56101
+2025-10-06 23:13:10,627 - LAS-2 - ERROR - Error connexió de compra TCP des de ('127.0.0.1', 54369): Ticket() takes no arguments
+2025-10-06 23:13:10,627 - Client-5 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:10,628 - Client-1 - WARNING - Sense confirmació TCP de compra
+2025-10-06 23:13:10,628 - Client-5 - INFO - Sol·licitada butlleta: sorteig#1 número=23 via TCP port 56102
+2025-10-06 23:13:10,628 - Client-1 - INFO - Sol·licitada butlleta: sorteig#1 número=11 via TCP port 56102
+2025-10-06 23:13:11,389 - LAS-1 - INFO - Rebut sorteig#2 -> 39; sense butlletes locals per a aquest sorteig
+2025-10-06 23:13:11,389 - DE - INFO - Anunciat sorteig #2 -> guanyador=39 (1..50)
+2025-10-06 23:13:11,389 - Client-2 - INFO - Observat resultat: #2 -> 39
+2025-10-06 23:13:11,390 - Client-4 - INFO - Observat resultat: #2 -> 39
+2025-10-06 23:13:11,390 - Client-1 - INFO - Observat resultat: #2 -> 39
+2025-10-06 23:13:11,390 - Client-3 - INFO - Observat resultat: #2 -> 39
+2025-10-06 23:13:11,390 - LAS-2 - INFO - Rebut sorteig#2 -> 39; sense butlletes locals per a aquest sorteig
+2025-10-06 23:13:11,390 - Client-5 - INFO - Observat resultat: #2 -> 39
+2025-10-06 23:13:58,627 - LAS-1 - INFO - Rebut sorteig#1 -> 46; sense butlletes locals per a aquest sorteig
+2025-10-06 23:13:58,627 - LAS-2 - INFO - Rebut sorteig#1 -> 46; sense butlletes locals per a aquest sorteig
+2025-10-06 23:13:58,627 - Client-3 - INFO - Observat resultat: #1 -> 46
+2025-10-06 23:13:58,627 - Client-5 - INFO - Observat resultat: #1 -> 46
+2025-10-06 23:13:58,627 - Client-2 - INFO - Observat resultat: #1 -> 46
+2025-10-06 23:13:58,629 - DE - INFO - Anunciat sorteig #1 -> guanyador=46 (1..50)
+2025-10-06 23:13:58,629 - Client-1 - INFO - Observat resultat: #1 -> 46
+2025-10-06 23:13:58,629 - Client-4 - INFO - Observat resultat: #1 -> 46
+2025-10-06 23:13:58,834 - LAS-2 - INFO - Butlleta venuda a Client-2: sorteig#1 número=15 (total=1)
+2025-10-06 23:13:58,835 - LAS-2 - INFO - Butlleta venuda a Client-3: sorteig#1 número=36 (total=2)
+2025-10-06 23:13:58,835 - Client-2 - INFO - Confirmada: sorteig#1 número=15 (LAS 56102)
+2025-10-06 23:13:58,836 - Client-3 - INFO - Confirmada: sorteig#1 número=36 (LAS 56102)
+2025-10-06 23:13:58,836 - LAS-1 - INFO - Butlleta venuda a Client-1: sorteig#1 número=49 (total=1)
+2025-10-06 23:13:58,836 - LAS-2 - INFO - Butlleta venuda a Client-4: sorteig#1 número=7 (total=3)
+2025-10-06 23:13:58,836 - Client-2 - INFO - Sol·licitada butlleta: sorteig#1 número=15 via TCP port 56102
+2025-10-06 23:13:58,836 - Client-3 - INFO - Sol·licitada butlleta: sorteig#1 número=36 via TCP port 56102
+2025-10-06 23:13:58,837 - Client-1 - INFO - Confirmada: sorteig#1 número=49 (LAS 56101)
+2025-10-06 23:13:58,837 - Client-4 - INFO - Confirmada: sorteig#1 número=7 (LAS 56102)
+2025-10-06 23:13:58,837 - Client-1 - INFO - Sol·licitada butlleta: sorteig#1 número=49 via TCP port 56101
+2025-10-06 23:13:58,838 - Client-4 - INFO - Sol·licitada butlleta: sorteig#1 número=7 via TCP port 56102
+2025-10-06 23:13:58,844 - LAS-2 - INFO - Butlleta venuda a Client-5: sorteig#1 número=26 (total=4)
+2025-10-06 23:13:58,844 - Client-5 - INFO - Confirmada: sorteig#1 número=26 (LAS 56102)
+2025-10-06 23:13:58,844 - Client-5 - INFO - Sol·licitada butlleta: sorteig#1 número=26 via TCP port 56102
+2025-10-06 23:14:00,845 - LAS-1 - INFO - Butlleta venuda a Client-4: sorteig#1 número=50 (total=2)
+2025-10-06 23:14:00,846 - LAS-2 - INFO - Butlleta venuda a Client-3: sorteig#1 número=15 (total=5)
+2025-10-06 23:14:00,846 - Client-4 - INFO - Confirmada: sorteig#1 número=50 (LAS 56101)
+2025-10-06 23:14:00,847 - Client-4 - INFO - Sol·licitada butlleta: sorteig#1 número=50 via TCP port 56101
+2025-10-06 23:14:00,847 - Client-3 - INFO - Confirmada: sorteig#1 número=15 (LAS 56102)
+2025-10-06 23:14:00,847 - LAS-1 - INFO - Butlleta venuda a Client-2: sorteig#1 número=9 (total=3)
+2025-10-06 23:14:00,847 - Client-3 - INFO - Sol·licitada butlleta: sorteig#1 número=15 via TCP port 56102
+2025-10-06 23:14:00,848 - Client-2 - INFO - Confirmada: sorteig#1 número=9 (LAS 56101)
+2025-10-06 23:14:00,848 - Client-2 - INFO - Sol·licitada butlleta: sorteig#1 número=9 via TCP port 56101
+2025-10-06 23:14:00,859 - LAS-1 - INFO - Butlleta venuda a Client-1: sorteig#1 número=6 (total=4)
+2025-10-06 23:14:00,859 - Client-1 - INFO - Confirmada: sorteig#1 número=6 (LAS 56101)
+2025-10-06 23:14:00,860 - LAS-2 - INFO - Butlleta venuda a Client-5: sorteig#1 número=37 (total=6)
+2025-10-06 23:14:00,860 - Client-1 - INFO - Sol·licitada butlleta: sorteig#1 número=6 via TCP port 56101
+2025-10-06 23:14:00,861 - Client-5 - INFO - Confirmada: sorteig#1 número=37 (LAS 56102)
+2025-10-06 23:14:00,861 - Client-5 - INFO - Sol·licitada butlleta: sorteig#1 número=37 via TCP port 56102
+2025-10-06 23:14:02,861 - LAS-2 - INFO - Butlleta venuda a Client-2: sorteig#1 número=31 (total=7)
+2025-10-06 23:14:02,862 - LAS-2 - INFO - Butlleta venuda a Client-3: sorteig#1 número=29 (total=8)
+2025-10-06 23:14:02,862 - LAS-1 - INFO - Butlleta venuda a Client-4: sorteig#1 número=22 (total=5)
+2025-10-06 23:14:02,862 - Client-2 - INFO - Confirmada: sorteig#1 número=31 (LAS 56102)
+2025-10-06 23:14:02,863 - Client-3 - INFO - Confirmada: sorteig#1 número=29 (LAS 56102)
+2025-10-06 23:14:02,863 - Client-4 - INFO - Confirmada: sorteig#1 número=22 (LAS 56101)
+2025-10-06 23:14:02,863 - Client-2 - INFO - Sol·licitada butlleta: sorteig#1 número=31 via TCP port 56102
+2025-10-06 23:14:02,864 - Client-3 - INFO - Sol·licitada butlleta: sorteig#1 número=29 via TCP port 56102
+2025-10-06 23:14:02,864 - Client-4 - INFO - Sol·licitada butlleta: sorteig#1 número=22 via TCP port 56101
+2025-10-06 23:14:02,876 - LAS-2 - INFO - Butlleta venuda a Client-5: sorteig#1 número=23 (total=9)
+2025-10-06 23:14:02,876 - Client-5 - INFO - Confirmada: sorteig#1 número=23 (LAS 56102)
+2025-10-06 23:14:02,877 - Client-5 - INFO - Sol·licitada butlleta: sorteig#1 número=23 via TCP port 56102
+2025-10-06 23:14:02,890 - LAS-2 - INFO - Butlleta venuda a Client-1: sorteig#1 número=11 (total=10)
+2025-10-06 23:14:02,902 - Client-1 - INFO - Confirmada: sorteig#1 número=11 (LAS 56102)
+2025-10-06 23:14:02,909 - Client-1 - INFO - Sol·licitada butlleta: sorteig#1 número=11 via TCP port 56102
+2025-10-06 23:14:03,635 - LAS-1 - INFO - Rebut sorteig#2 -> 43; sense butlletes locals per a aquest sorteig
+2025-10-06 23:14:03,635 - Client-1 - INFO - Observat resultat: #2 -> 43
+2025-10-06 23:14:03,636 - Client-3 - INFO - Observat resultat: #2 -> 43
+2025-10-06 23:14:03,636 - DE - INFO - Anunciat sorteig #2 -> guanyador=43 (1..50)
+2025-10-06 23:14:03,636 - Client-2 - INFO - Observat resultat: #2 -> 43
+2025-10-06 23:14:03,636 - Client-4 - INFO - Observat resultat: #2 -> 43
+2025-10-06 23:14:03,636 - LAS-2 - INFO - Rebut sorteig#2 -> 43; sense butlletes locals per a aquest sorteig
+2025-10-06 23:14:03,636 - Client-5 - INFO - Observat resultat: #2 -> 43
+2025-10-06 23:14:04,874 - LAS-2 - INFO - Butlleta venuda a Client-3: sorteig#2 número=26 (total=1)
+2025-10-06 23:14:04,874 - LAS-1 - INFO - Butlleta venuda a Client-4: sorteig#2 número=45 (total=1)
+2025-10-06 23:14:04,874 - Client-3 - INFO - Confirmada: sorteig#2 número=26 (LAS 56102)
+2025-10-06 23:14:04,875 - LAS-1 - INFO - Butlleta venuda a Client-2: sorteig#2 número=41 (total=2)
+2025-10-06 23:14:04,875 - Client-3 - INFO - Sol·licitada butlleta: sorteig#2 número=26 via TCP port 56102
+2025-10-06 23:14:04,875 - Client-4 - INFO - Confirmada: sorteig#2 número=45 (LAS 56101)
+2025-10-06 23:14:04,875 - Client-2 - INFO - Confirmada: sorteig#2 número=41 (LAS 56101)
+2025-10-06 23:14:04,876 - Client-4 - INFO - Sol·licitada butlleta: sorteig#2 número=45 via TCP port 56101
+2025-10-06 23:14:04,876 - Client-2 - INFO - Sol·licitada butlleta: sorteig#2 número=41 via TCP port 56101
+2025-10-06 23:14:04,888 - LAS-1 - INFO - Butlleta venuda a Client-5: sorteig#2 número=32 (total=3)
+2025-10-06 23:14:04,888 - Client-5 - INFO - Confirmada: sorteig#2 número=32 (LAS 56101)
+2025-10-06 23:14:04,889 - Client-5 - INFO - Sol·licitada butlleta: sorteig#2 número=32 via TCP port 56101
+2025-10-06 23:14:04,918 - LAS-2 - INFO - Butlleta venuda a Client-1: sorteig#2 número=47 (total=2)
+2025-10-06 23:14:04,919 - Client-1 - INFO - Confirmada: sorteig#2 número=47 (LAS 56102)
+2025-10-06 23:14:04,919 - Client-1 - INFO - Sol·licitada butlleta: sorteig#2 número=47 via TCP port 56102
+2025-10-06 23:14:06,892 - LAS-1 - INFO - Butlleta venuda a Client-2: sorteig#2 número=46 (total=4)
+2025-10-06 23:14:06,892 - LAS-1 - INFO - Butlleta venuda a Client-3: sorteig#2 número=45 (total=5)
+2025-10-06 23:14:06,892 - Client-2 - INFO - Confirmada: sorteig#2 número=46 (LAS 56101)
+2025-10-06 23:14:06,893 - LAS-1 - INFO - Butlleta venuda a Client-5: sorteig#2 número=37 (total=6)
+2025-10-06 23:14:06,893 - Client-3 - INFO - Confirmada: sorteig#2 número=45 (LAS 56101)
+2025-10-06 23:14:06,893 - Client-2 - INFO - Sol·licitada butlleta: sorteig#2 número=46 via TCP port 56101
+2025-10-06 23:14:06,893 - LAS-1 - INFO - Butlleta venuda a Client-4: sorteig#2 número=40 (total=7)
+2025-10-06 23:14:06,893 - Client-5 - INFO - Confirmada: sorteig#2 número=37 (LAS 56101)
+2025-10-06 23:14:06,893 - Client-3 - INFO - Sol·licitada butlleta: sorteig#2 número=45 via TCP port 56101
+2025-10-06 23:14:06,895 - Client-4 - INFO - Confirmada: sorteig#2 número=40 (LAS 56101)
+2025-10-06 23:14:06,895 - Client-5 - INFO - Sol·licitada butlleta: sorteig#2 número=37 via TCP port 56101
+2025-10-06 23:14:06,895 - Client-4 - INFO - Sol·licitada butlleta: sorteig#2 número=40 via TCP port 56101
+2025-10-06 23:14:06,922 - LAS-2 - INFO - Butlleta venuda a Client-1: sorteig#2 número=37 (total=3)
+2025-10-06 23:14:06,923 - Client-1 - INFO - Confirmada: sorteig#2 número=37 (LAS 56102)
+2025-10-06 23:14:06,924 - Client-1 - INFO - Sol·licitada butlleta: sorteig#2 número=37 via TCP port 56102
+2025-10-06 23:14:08,637 - LAS-1 - INFO - Rebut sorteig#3 -> 44; sense butlletes locals per a aquest sorteig
+2025-10-06 23:14:08,637 - DE - INFO - Anunciat sorteig #3 -> guanyador=44 (1..50)
+2025-10-06 23:14:08,638 - Client-4 - INFO - Observat resultat: #3 -> 44
+2025-10-06 23:14:08,638 - LAS-2 - INFO - Rebut sorteig#3 -> 44; sense butlletes locals per a aquest sorteig
+2025-10-06 23:14:08,638 - Client-1 - INFO - Observat resultat: #3 -> 44
+2025-10-06 23:14:08,638 - Client-3 - INFO - Observat resultat: #3 -> 44
+2025-10-06 23:14:08,638 - Client-2 - INFO - Observat resultat: #3 -> 44
+2025-10-06 23:14:08,638 - Client-5 - INFO - Observat resultat: #3 -> 44
+2025-10-06 23:14:08,908 - LAS-2 - INFO - Butlleta venuda a Client-3: sorteig#3 número=5 (total=1)
+2025-10-06 23:14:08,918 - Client-3 - INFO - Confirmada: sorteig#3 número=5 (LAS 56102)
+2025-10-06 23:14:08,920 - LAS-2 - INFO - Butlleta venuda a Client-2: sorteig#3 número=33 (total=2)
+2025-10-06 23:14:08,921 - Client-3 - INFO - Sol·licitada butlleta: sorteig#3 número=5 via TCP port 56102
+2025-10-06 23:14:08,923 - Client-2 - INFO - Confirmada: sorteig#3 número=33 (LAS 56102)
+2025-10-06 23:14:08,926 - LAS-2 - INFO - Butlleta venuda a Client-4: sorteig#3 número=5 (total=3)
+2025-10-06 23:14:08,927 - Client-2 - INFO - Sol·licitada butlleta: sorteig#3 número=33 via TCP port 56102
+2025-10-06 23:14:08,931 - Client-4 - INFO - Confirmada: sorteig#3 número=5 (LAS 56102)
+2025-10-06 23:14:08,933 - LAS-2 - INFO - Butlleta venuda a Client-5: sorteig#3 número=24 (total=4)
+2025-10-06 23:14:08,935 - Client-4 - INFO - Sol·licitada butlleta: sorteig#3 número=5 via TCP port 56102
+2025-10-06 23:14:08,938 - Client-5 - INFO - Confirmada: sorteig#3 número=24 (LAS 56102)
+2025-10-06 23:14:08,940 - LAS-2 - INFO - Butlleta venuda a Client-1: sorteig#3 número=50 (total=5)
+2025-10-06 23:14:08,946 - Client-5 - INFO - Sol·licitada butlleta: sorteig#3 número=24 via TCP port 56102
+2025-10-06 23:14:08,954 - Client-1 - INFO - Confirmada: sorteig#3 número=50 (LAS 56102)
+2025-10-06 23:14:08,967 - Client-1 - INFO - Sol·licitada butlleta: sorteig#3 número=50 via TCP port 56102
+2025-10-06 23:14:10,929 - LAS-2 - INFO - Butlleta venuda a Client-3: sorteig#3 número=33 (total=6)
+2025-10-06 23:14:10,929 - Client-3 - INFO - Confirmada: sorteig#3 número=33 (LAS 56102)
+2025-10-06 23:14:10,930 - Client-3 - INFO - Sol·licitada butlleta: sorteig#3 número=33 via TCP port 56102
+2025-10-06 23:14:10,946 - LAS-1 - INFO - Butlleta venuda a Client-2: sorteig#3 número=16 (total=1)
+2025-10-06 23:14:10,947 - Client-2 - INFO - Confirmada: sorteig#3 número=16 (LAS 56101)
+2025-10-06 23:14:10,947 - LAS-1 - INFO - Butlleta venuda a Client-4: sorteig#3 número=47 (total=2)
+2025-10-06 23:14:10,947 - Client-2 - INFO - Sol·licitada butlleta: sorteig#3 número=16 via TCP port 56101
+2025-10-06 23:14:10,948 - Client-4 - INFO - Confirmada: sorteig#3 número=47 (LAS 56101)
+2025-10-06 23:14:10,948 - Client-4 - INFO - Sol·licitada butlleta: sorteig#3 número=47 via TCP port 56101
+2025-10-06 23:14:10,977 - LAS-1 - INFO - Butlleta venuda a Client-5: sorteig#3 número=3 (total=3)
+2025-10-06 23:14:10,977 - LAS-1 - INFO - Butlleta venuda a Client-1: sorteig#3 número=39 (total=4)
+2025-10-06 23:14:10,977 - Client-5 - INFO - Confirmada: sorteig#3 número=3 (LAS 56101)
+2025-10-06 23:14:10,978 - Client-1 - INFO - Confirmada: sorteig#3 número=39 (LAS 56101)
+2025-10-06 23:14:10,978 - Client-5 - INFO - Sol·licitada butlleta: sorteig#3 número=3 via TCP port 56101
+2025-10-06 23:14:10,978 - Client-1 - INFO - Sol·licitada butlleta: sorteig#3 número=39 via TCP port 56101
+2025-10-06 23:14:12,949 - LAS-2 - INFO - Butlleta venuda a Client-3: sorteig#3 número=33 (total=7)
+2025-10-06 23:14:12,950 - Client-3 - INFO - Confirmada: sorteig#3 número=33 (LAS 56102)
+2025-10-06 23:14:12,951 - Client-3 - INFO - Sol·licitada butlleta: sorteig#3 número=33 via TCP port 56102
+2025-10-06 23:14:12,965 - LAS-1 - INFO - Butlleta venuda a Client-2: sorteig#3 número=3 (total=5)
+2025-10-06 23:14:12,966 - Client-2 - INFO - Confirmada: sorteig#3 número=3 (LAS 56101)
+2025-10-06 23:14:12,966 - LAS-1 - INFO - Butlleta venuda a Client-4: sorteig#3 número=10 (total=6)
+2025-10-06 23:14:12,966 - Client-2 - INFO - Sol·licitada butlleta: sorteig#3 número=3 via TCP port 56101
+2025-10-06 23:14:12,967 - Client-4 - INFO - Confirmada: sorteig#3 número=10 (LAS 56101)
+2025-10-06 23:14:12,967 - Client-4 - INFO - Sol·licitada butlleta: sorteig#3 número=10 via TCP port 56101
+2025-10-06 23:14:12,997 - LAS-1 - INFO - Butlleta venuda a Client-5: sorteig#3 número=20 (total=7)
+2025-10-06 23:14:12,997 - LAS-1 - INFO - Butlleta venuda a Client-1: sorteig#3 número=2 (total=8)
+2025-10-06 23:14:12,998 - Client-5 - INFO - Confirmada: sorteig#3 número=20 (LAS 56101)
+2025-10-06 23:14:12,998 - Client-1 - INFO - Confirmada: sorteig#3 número=2 (LAS 56101)
+2025-10-06 23:14:12,998 - Client-5 - INFO - Sol·licitada butlleta: sorteig#3 número=20 via TCP port 56101
+2025-10-06 23:14:12,998 - Client-1 - INFO - Sol·licitada butlleta: sorteig#3 número=2 via TCP port 56101
+2025-10-06 23:14:13,644 - LAS-1 - INFO - Rebut sorteig#4 -> 36; sense butlletes locals per a aquest sorteig
+2025-10-06 23:14:13,644 - LAS-2 - INFO - Rebut sorteig#4 -> 36; sense butlletes locals per a aquest sorteig
+2025-10-06 23:14:13,644 - DE - INFO - Anunciat sorteig #4 -> guanyador=36 (1..50)
+2025-10-06 23:14:13,644 - Client-4 - INFO - Observat resultat: #4 -> 36
+2025-10-06 23:14:13,644 - Client-1 - INFO - Observat resultat: #4 -> 36
+2025-10-06 23:14:13,645 - Client-2 - INFO - Observat resultat: #4 -> 36
+2025-10-06 23:14:13,645 - Client-5 - INFO - Observat resultat: #4 -> 36
+2025-10-06 23:14:13,645 - Client-3 - INFO - Observat resultat: #4 -> 36
+2025-10-06 23:14:14,955 - LAS-1 - INFO - Butlleta venuda a Client-3: sorteig#4 número=19 (total=1)
+2025-10-06 23:14:14,956 - Client-3 - INFO - Confirmada: sorteig#4 número=19 (LAS 56101)
+2025-10-06 23:14:14,956 - Client-3 - INFO - Sol·licitada butlleta: sorteig#4 número=19 via TCP port 56101
+2025-10-06 23:14:14,971 - LAS-2 - INFO - Butlleta venuda a Client-2: sorteig#4 número=2 (total=1)
+2025-10-06 23:14:14,972 - LAS-1 - INFO - Butlleta venuda a Client-4: sorteig#4 número=9 (total=2)
+2025-10-06 23:14:14,972 - Client-2 - INFO - Confirmada: sorteig#4 número=2 (LAS 56102)
+2025-10-06 23:14:14,973 - Client-4 - INFO - Confirmada: sorteig#4 número=9 (LAS 56101)
+2025-10-06 23:14:14,973 - Client-2 - INFO - Sol·licitada butlleta: sorteig#4 número=2 via TCP port 56102
+2025-10-06 23:14:14,973 - Client-4 - INFO - Sol·licitada butlleta: sorteig#4 número=9 via TCP port 56101
+2025-10-06 23:14:15,001 - LAS-1 - INFO - Butlleta venuda a Client-5: sorteig#4 número=22 (total=3)
+2025-10-06 23:14:15,002 - Client-5 - INFO - Confirmada: sorteig#4 número=22 (LAS 56101)
+2025-10-06 23:14:15,002 - Client-5 - INFO - Sol·licitada butlleta: sorteig#4 número=22 via TCP port 56101
+2025-10-06 23:14:15,016 - LAS-2 - INFO - Butlleta venuda a Client-1: sorteig#4 número=46 (total=2)
+2025-10-06 23:14:15,016 - Client-1 - INFO - Confirmada: sorteig#4 número=46 (LAS 56102)
+2025-10-06 23:14:15,017 - Client-1 - INFO - Sol·licitada butlleta: sorteig#4 número=46 via TCP port 56102
+2025-10-06 23:14:16,971 - LAS-2 - INFO - Butlleta venuda a Client-3: sorteig#4 número=38 (total=3)
+2025-10-06 23:14:16,971 - Client-3 - INFO - Confirmada: sorteig#4 número=38 (LAS 56102)
+2025-10-06 23:14:16,972 - Client-3 - INFO - Sol·licitada butlleta: sorteig#4 número=38 via TCP port 56102
+2025-10-06 23:14:16,988 - LAS-1 - INFO - Butlleta venuda a Client-2: sorteig#4 número=49 (total=4)
+2025-10-06 23:14:16,988 - LAS-1 - INFO - Butlleta venuda a Client-4: sorteig#4 número=6 (total=5)
+2025-10-06 23:14:16,989 - Client-2 - INFO - Confirmada: sorteig#4 número=49 (LAS 56101)
+2025-10-06 23:14:16,990 - Client-4 - INFO - Confirmada: sorteig#4 número=6 (LAS 56101)
+2025-10-06 23:14:16,990 - Client-2 - INFO - Sol·licitada butlleta: sorteig#4 número=49 via TCP port 56101
+2025-10-06 23:14:16,990 - Client-4 - INFO - Sol·licitada butlleta: sorteig#4 número=6 via TCP port 56101
+2025-10-06 23:14:17,017 - LAS-2 - INFO - Butlleta venuda a Client-5: sorteig#4 número=7 (total=4)
+2025-10-06 23:14:17,018 - Client-5 - INFO - Confirmada: sorteig#4 número=7 (LAS 56102)
+2025-10-06 23:14:17,018 - Client-5 - INFO - Sol·licitada butlleta: sorteig#4 número=7 via TCP port 56102
+2025-10-06 23:14:17,032 - LAS-1 - INFO - Butlleta venuda a Client-1: sorteig#4 número=33 (total=6)
+2025-10-06 23:14:17,033 - Client-1 - INFO - Confirmada: sorteig#4 número=33 (LAS 56101)
+2025-10-06 23:14:17,033 - Client-1 - INFO - Sol·licitada butlleta: sorteig#4 número=33 via TCP port 56101
+2025-10-06 23:14:18,657 - LAS-1 - INFO - Rebut sorteig#5 -> 38; sense butlletes locals per a aquest sorteig
+2025-10-06 23:14:18,657 - LAS-2 - INFO - Rebut sorteig#5 -> 38; sense butlletes locals per a aquest sorteig
+2025-10-06 23:14:18,657 - Client-2 - INFO - Observat resultat: #5 -> 38
+2025-10-06 23:14:18,659 - Client-4 - INFO - Observat resultat: #5 -> 38
+2025-10-06 23:14:18,659 - DE - INFO - Anunciat sorteig #5 -> guanyador=38 (1..50)
+2025-10-06 23:14:18,659 - Client-1 - INFO - Observat resultat: #5 -> 38
+2025-10-06 23:14:18,659 - Client-3 - INFO - Observat resultat: #5 -> 38
+2025-10-06 23:14:18,659 - Client-5 - INFO - Observat resultat: #5 -> 38
+2025-10-06 23:14:19,000 - LAS-1 - INFO - Butlleta venuda a Client-3: sorteig#5 número=42 (total=1)
+2025-10-06 23:14:19,002 - Client-3 - INFO - Confirmada: sorteig#5 número=42 (LAS 56101)
+2025-10-06 23:14:19,002 - Client-3 - INFO - Sol·licitada butlleta: sorteig#5 número=42 via TCP port 56101
+2025-10-06 23:14:19,002 - LAS-2 - INFO - Butlleta venuda a Client-4: sorteig#5 número=28 (total=1)
+2025-10-06 23:14:19,003 - LAS-1 - INFO - Butlleta venuda a Client-2: sorteig#5 número=20 (total=2)
+2025-10-06 23:14:19,003 - Client-4 - INFO - Confirmada: sorteig#5 número=28 (LAS 56102)
+2025-10-06 23:14:19,003 - Client-2 - INFO - Confirmada: sorteig#5 número=20 (LAS 56101)
+2025-10-06 23:14:19,003 - Client-4 - INFO - Sol·licitada butlleta: sorteig#5 número=28 via TCP port 56102
+2025-10-06 23:14:19,004 - Client-2 - INFO - Sol·licitada butlleta: sorteig#5 número=20 via TCP port 56101
+2025-10-06 23:14:19,033 - LAS-2 - INFO - Butlleta venuda a Client-5: sorteig#5 número=15 (total=2)
+2025-10-06 23:14:19,033 - Client-5 - INFO - Confirmada: sorteig#5 número=15 (LAS 56102)
+2025-10-06 23:14:19,033 - Client-5 - INFO - Sol·licitada butlleta: sorteig#5 número=15 via TCP port 56102
+2025-10-06 23:14:19,063 - LAS-1 - INFO - Butlleta venuda a Client-1: sorteig#5 número=2 (total=3)
+2025-10-06 23:14:19,064 - Client-1 - INFO - Confirmada: sorteig#5 número=2 (LAS 56101)
+2025-10-06 23:14:19,064 - Client-1 - INFO - Sol·licitada butlleta: sorteig#5 número=2 via TCP port 56101
+2025-10-06 23:14:21,008 - LAS-1 - INFO - Butlleta venuda a Client-3: sorteig#5 número=44 (total=4)
+2025-10-06 23:14:21,009 - Client-3 - INFO - Confirmada: sorteig#5 número=44 (LAS 56101)
+2025-10-06 23:14:21,009 - LAS-2 - INFO - Butlleta venuda a Client-4: sorteig#5 número=2 (total=3)
+2025-10-06 23:14:21,010 - Client-3 - INFO - Sol·licitada butlleta: sorteig#5 número=44 via TCP port 56101
+2025-10-06 23:14:21,010 - LAS-2 - INFO - Butlleta venuda a Client-2: sorteig#5 número=49 (total=4)
+2025-10-06 23:14:21,011 - Client-4 - INFO - Confirmada: sorteig#5 número=2 (LAS 56102)
+2025-10-06 23:14:21,011 - Client-2 - INFO - Confirmada: sorteig#5 número=49 (LAS 56102)
+2025-10-06 23:14:21,011 - Client-4 - INFO - Sol·licitada butlleta: sorteig#5 número=2 via TCP port 56102
+2025-10-06 23:14:21,011 - Client-2 - INFO - Sol·licitada butlleta: sorteig#5 número=49 via TCP port 56102
+2025-10-06 23:14:21,038 - LAS-1 - INFO - Butlleta venuda a Client-5: sorteig#5 número=19 (total=5)
+2025-10-06 23:14:21,039 - Client-5 - INFO - Confirmada: sorteig#5 número=19 (LAS 56101)
+2025-10-06 23:14:21,039 - Client-5 - INFO - Sol·licitada butlleta: sorteig#5 número=19 via TCP port 56101
+2025-10-06 23:14:21,068 - LAS-1 - INFO - Butlleta venuda a Client-1: sorteig#5 número=41 (total=6)
+2025-10-06 23:14:21,069 - Client-1 - INFO - Confirmada: sorteig#5 número=41 (LAS 56101)
+2025-10-06 23:14:21,069 - Client-1 - INFO - Sol·licitada butlleta: sorteig#5 número=41 via TCP port 56101
+2025-10-06 23:14:23,018 - LAS-1 - INFO - Butlleta venuda a Client-3: sorteig#5 número=21 (total=7)
+2025-10-06 23:14:23,019 - LAS-2 - INFO - Butlleta venuda a Client-2: sorteig#5 número=6 (total=5)
+2025-10-06 23:14:23,019 - LAS-1 - INFO - Butlleta venuda a Client-4: sorteig#5 número=28 (total=8)
+2025-10-06 23:14:23,019 - Client-3 - INFO - Confirmada: sorteig#5 número=21 (LAS 56101)
+2025-10-06 23:14:23,020 - Client-2 - INFO - Confirmada: sorteig#5 número=6 (LAS 56102)
+2025-10-06 23:14:23,020 - Client-4 - INFO - Confirmada: sorteig#5 número=28 (LAS 56101)
+2025-10-06 23:14:23,020 - Client-3 - INFO - Sol·licitada butlleta: sorteig#5 número=21 via TCP port 56101
+2025-10-06 23:14:23,021 - Client-2 - INFO - Sol·licitada butlleta: sorteig#5 número=6 via TCP port 56102
+2025-10-06 23:14:23,021 - Client-4 - INFO - Sol·licitada butlleta: sorteig#5 número=28 via TCP port 56101
+2025-10-06 23:14:23,062 - LAS-1 - INFO - Butlleta venuda a Client-5: sorteig#5 número=31 (total=9)
+2025-10-06 23:14:23,063 - Client-5 - INFO - Confirmada: sorteig#5 número=31 (LAS 56101)
+2025-10-06 23:14:23,063 - Client-5 - INFO - Sol·licitada butlleta: sorteig#5 número=31 via TCP port 56101
+2025-10-06 23:14:23,078 - LAS-2 - INFO - Butlleta venuda a Client-1: sorteig#5 número=44 (total=6)
+2025-10-06 23:14:23,079 - Client-1 - INFO - Confirmada: sorteig#5 número=44 (LAS 56102)
+2025-10-06 23:14:23,079 - Client-1 - INFO - Sol·licitada butlleta: sorteig#5 número=44 via TCP port 56102

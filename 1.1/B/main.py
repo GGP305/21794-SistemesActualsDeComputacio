@@ -118,6 +118,13 @@ class Ticket:
     number: int
     las_id: str
 
+    def __init__(self, client_id: str, client_addr: Tuple[str, int], draw_id: int, number: int, las_id: str):
+        self.client_id = client_id
+        self.client_addr = client_addr
+        self.draw_id = draw_id
+        self.number = number
+        self.las_id = las_id
+
 
 class LotteryAdminServer:
     """Vèn butlletes i notifica els guanyadors.
