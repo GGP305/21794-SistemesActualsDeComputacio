@@ -1,0 +1,226 @@
+2025-10-01 11:31:36,009 - Agent-Helper-1 - INFO - Received help request #1 from Requestor
+2025-10-01 11:31:36,010 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #1)
+2025-10-01 11:31:36,010 - Agent-Helper-2 - INFO - Received help request #1 from Requestor
+2025-10-01 11:31:36,010 - Agent-Helper-3 - INFO - Received help request #1 from Requestor
+2025-10-01 11:31:36,542 - Agent-Requestor - INFO - Received HELP from Helper-1 for Request #1
+2025-10-01 11:31:36,542 - Agent-Helper-1 - INFO - Sent HELP_OK: Ok_1! (Request #1)
+2025-10-01 11:31:36,543 - Agent-Helper-1 - INFO - Decided to HELP for request #1
+2025-10-01 11:31:36,620 - Agent-Requestor - INFO - Received DENIAL from Helper-3 for Request #1
+2025-10-01 11:31:36,620 - Agent-Helper-3 - INFO - Sent HELP_NO: No_1! (Request #1)
+2025-10-01 11:31:36,621 - Agent-Helper-3 - INFO - Decided to DENY for request #1
+2025-10-01 11:31:37,053 - Agent-Requestor - INFO - Received HELP from Helper-2 for Request #1
+2025-10-01 11:31:37,053 - Agent-Helper-2 - INFO - Sent HELP_OK: Ok_1! (Request #1)
+2025-10-01 11:31:37,056 - Agent-Helper-2 - INFO - Decided to HELP for request #1
+2025-10-01 11:31:40,057 - Agent-Helper-2 - INFO - Received help request #2 from Requestor
+2025-10-01 11:31:40,057 - Agent-Helper-1 - INFO - Received help request #2 from Requestor
+2025-10-01 11:31:40,057 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #2)
+2025-10-01 11:31:40,057 - Agent-Helper-3 - INFO - Received help request #2 from Requestor
+2025-10-01 11:31:40,651 - Agent-Requestor - INFO - Received DENIAL from Helper-3 for Request #2
+2025-10-01 11:31:40,652 - Agent-Helper-3 - INFO - Sent HELP_NO: No_2! (Request #2)
+2025-10-01 11:31:40,652 - Agent-Helper-3 - INFO - Decided to DENY for request #2
+2025-10-01 11:31:41,485 - Agent-Requestor - INFO - Received DENIAL from Helper-2 for Request #2
+2025-10-01 11:31:41,486 - Agent-Helper-2 - INFO - Sent HELP_NO: No_2! (Request #2)
+2025-10-01 11:31:41,486 - Agent-Helper-2 - INFO - Decided to DENY for request #2
+2025-10-01 11:31:42,750 - Agent-Requestor - INFO - Received DENIAL from Helper-1 for Request #2
+2025-10-01 11:31:42,751 - Agent-Helper-1 - INFO - Sent HELP_NO: No_2! (Request #2)
+2025-10-01 11:31:42,751 - Agent-Helper-1 - INFO - Decided to DENY for request #2
+2025-10-01 11:31:44,209 - Agent-Helper-2 - INFO - Received help request #3 from Requestor
+2025-10-01 11:31:44,209 - Agent-Helper-1 - INFO - Received help request #3 from Requestor
+2025-10-01 11:31:44,209 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #3)
+2025-10-01 11:31:44,209 - Agent-Helper-3 - INFO - Received help request #3 from Requestor
+2025-10-01 11:31:45,182 - Agent-Requestor - INFO - Received DENIAL from Helper-3 for Request #3
+2025-10-01 11:31:45,183 - Agent-Helper-3 - INFO - Sent HELP_NO: No_3! (Request #3)
+2025-10-01 11:31:45,183 - Agent-Helper-3 - INFO - Decided to DENY for request #3
+2025-10-01 11:31:45,742 - Agent-Requestor - INFO - Received HELP from Helper-2 for Request #3
+2025-10-01 11:31:45,743 - Agent-Helper-2 - INFO - Sent HELP_OK: Ok_3! (Request #3)
+2025-10-01 11:31:45,744 - Agent-Helper-2 - INFO - Decided to HELP for request #3
+2025-10-01 11:31:46,661 - Agent-Requestor - INFO - Received DENIAL from Helper-1 for Request #3
+2025-10-01 11:31:46,661 - Agent-Helper-1 - INFO - Sent HELP_NO: No_3! (Request #3)
+2025-10-01 11:31:46,662 - Agent-Helper-1 - INFO - Decided to DENY for request #3
+2025-10-01 11:31:48,399 - Agent-Helper-1 - INFO - Received help request #4 from Requestor
+2025-10-01 11:31:48,400 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #4)
+2025-10-01 11:31:48,400 - Agent-Helper-3 - INFO - Received help request #4 from Requestor
+2025-10-01 11:31:48,401 - Agent-Helper-2 - INFO - Received help request #4 from Requestor
+2025-10-01 11:31:49,561 - Agent-Requestor - INFO - Received HELP from Helper-2 for Request #4
+2025-10-01 11:31:49,562 - Agent-Helper-2 - INFO - Sent HELP_OK: Ok_4! (Request #4)
+2025-10-01 11:31:49,562 - Agent-Helper-2 - INFO - Decided to HELP for request #4
+2025-10-01 11:31:49,638 - Agent-Requestor - INFO - Received DENIAL from Helper-3 for Request #4
+2025-10-01 11:31:49,638 - Agent-Helper-3 - INFO - Sent HELP_NO: No_4! (Request #4)
+2025-10-01 11:31:49,639 - Agent-Helper-3 - INFO - Decided to DENY for request #4
+2025-10-01 11:31:50,777 - Agent-Requestor - INFO - Received HELP from Helper-1 for Request #4
+2025-10-01 11:31:50,778 - Agent-Helper-1 - INFO - Sent HELP_OK: Ok_4! (Request #4)
+2025-10-01 11:31:50,779 - Agent-Helper-1 - INFO - Decided to HELP for request #4
+2025-10-01 11:31:55,619 - Agent-Helper-1 - INFO - Received help request #5 from Requestor
+2025-10-01 11:31:55,619 - Agent-Helper-3 - INFO - Received help request #5 from Requestor
+2025-10-01 11:31:55,619 - Agent-Helper-2 - INFO - Received help request #5 from Requestor
+2025-10-01 11:31:55,619 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #5)
+2025-10-01 11:31:56,229 - Agent-Requestor - INFO - Received DENIAL from Helper-1 for Request #5
+2025-10-01 11:31:56,230 - Agent-Helper-1 - INFO - Sent HELP_NO: No_5! (Request #5)
+2025-10-01 11:31:56,231 - Agent-Helper-1 - INFO - Decided to DENY for request #5
+2025-10-01 11:31:56,869 - Agent-Requestor - INFO - Received DENIAL from Helper-3 for Request #5
+2025-10-01 11:31:56,869 - Agent-Helper-3 - INFO - Sent HELP_NO: No_5! (Request #5)
+2025-10-01 11:31:56,870 - Agent-Helper-3 - INFO - Decided to DENY for request #5
+2025-10-01 11:31:57,384 - Agent-Requestor - INFO - Received DENIAL from Helper-2 for Request #5
+2025-10-01 11:31:57,384 - Agent-Helper-2 - INFO - Sent HELP_NO: No_5! (Request #5)
+2025-10-01 11:31:57,384 - Agent-Helper-2 - INFO - Decided to DENY for request #5
+2025-10-01 11:32:00,177 - Agent-Helper-3 - INFO - Received help request #6 from Requestor
+2025-10-01 11:32:00,177 - Agent-Helper-1 - INFO - Received help request #6 from Requestor
+2025-10-01 11:32:00,177 - Agent-Helper-2 - INFO - Received help request #6 from Requestor
+2025-10-01 11:32:00,177 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #6)
+2025-10-01 11:34:00,590 - Agent-Helper-1 - INFO - Received help request #1 from Requestor
+2025-10-01 11:34:00,590 - Agent-Helper-2 - INFO - Received help request #1 from Requestor
+2025-10-01 11:34:00,590 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #1)
+2025-10-01 11:34:00,590 - Agent-Helper-3 - INFO - Received help request #1 from Requestor
+2025-10-01 11:34:01,147 - Agent-Requestor - INFO - Received HELP from Helper-2 for Request #1
+2025-10-01 11:34:01,148 - Agent-Helper-2 - INFO - Sent HELP_OK: Ok_1! (Request #1)
+2025-10-01 11:34:01,149 - Agent-Helper-2 - INFO - Decided to HELP for request #1
+2025-10-01 11:34:02,278 - Agent-Requestor - INFO - Received HELP from Helper-1 for Request #1
+2025-10-01 11:34:02,279 - Agent-Helper-1 - INFO - Sent HELP_OK: Ok_1! (Request #1)
+2025-10-01 11:34:02,280 - Agent-Helper-1 - INFO - Decided to HELP for request #1
+2025-10-01 11:34:02,294 - Agent-Helper-3 - INFO - Sent HELP_NO: No_1! (Request #1)
+2025-10-01 11:34:02,299 - Agent-Requestor - INFO - Received DENIAL from Helper-3 for Request #1
+2025-10-01 11:34:02,300 - Agent-Helper-3 - INFO - Decided to DENY for request #1
+2025-10-01 11:34:08,419 - Agent-Helper-1 - INFO - Received help request #2 from Requestor
+2025-10-01 11:34:08,420 - Agent-Helper-2 - INFO - Received help request #2 from Requestor
+2025-10-01 11:34:08,420 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #2)
+2025-10-01 11:34:08,420 - Agent-Helper-3 - INFO - Received help request #2 from Requestor
+2025-10-01 11:37:53,113 - Agent-Helper-1 - INFO - Received help request #1 from Requestor
+2025-10-01 11:37:53,114 - Agent-Helper-2 - INFO - Received help request #1 from Requestor
+2025-10-01 11:37:53,114 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #1)
+2025-10-01 11:37:53,114 - Agent-Helper-3 - INFO - Received help request #1 from Requestor
+2025-10-01 11:37:54,034 - Agent-Requestor - INFO - Received DENIAL from Helper-3 for Request #1
+2025-10-01 11:37:54,035 - Agent-Helper-3 - INFO - Sent HELP_NO: No_1! (Request #1)
+2025-10-01 11:37:54,035 - Agent-Helper-3 - INFO - Decided to DENY for request #1
+2025-10-01 11:37:54,299 - Agent-Requestor - INFO - Received HELP from Helper-1 for Request #1
+2025-10-01 11:37:54,300 - Agent-Helper-1 - INFO - Sent HELP_OK: Ok_1! (Request #1)
+2025-10-01 11:37:54,301 - Agent-Helper-1 - INFO - Decided to HELP for request #1
+2025-10-01 11:37:54,960 - Agent-Helper-2 - INFO - Decided NO RESPONSE for request #1
+2025-10-01 11:37:58,126 - Agent-Requestor - WARNING - ✗ Request #1 NOT SATISFIED (only 1 helpers)
+2025-10-01 11:37:58,144 - Agent-Helper-1 - INFO - Received help request #2 from Requestor
+2025-10-01 11:37:58,144 - Agent-Helper-2 - INFO - Received help request #2 from Requestor
+2025-10-01 11:37:58,144 - Agent-Helper-3 - INFO - Received help request #2 from Requestor
+2025-10-01 11:37:58,144 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #2)
+2025-10-01 11:38:00,161 - Agent-Requestor - INFO - Received DENIAL from Helper-1 for Request #2
+2025-10-01 11:38:00,162 - Agent-Helper-1 - INFO - Sent HELP_NO: No_2! (Request #2)
+2025-10-01 11:38:00,169 - Agent-Helper-1 - INFO - Decided to DENY for request #2
+2025-10-01 11:38:00,968 - Agent-Requestor - INFO - Received HELP from Helper-3 for Request #2
+2025-10-01 11:38:00,968 - Agent-Helper-3 - INFO - Sent HELP_OK: Ok_2! (Request #2)
+2025-10-01 11:38:00,968 - Agent-Helper-3 - INFO - Decided to HELP for request #2
+2025-10-01 11:38:01,121 - Agent-Requestor - INFO - Received HELP from Helper-2 for Request #2
+2025-10-01 11:38:01,122 - Agent-Helper-2 - INFO - Sent HELP_OK: Ok_2! (Request #2)
+2025-10-01 11:38:01,123 - Agent-Requestor - INFO - ✓ Request #2 SATISFIED! (2 helpers found in 2.98s)
+2025-10-01 11:38:01,124 - Agent-Helper-2 - INFO - Decided to HELP for request #2
+2025-10-01 11:38:05,064 - Agent-Helper-1 - INFO - Received help request #3 from Requestor
+2025-10-01 11:38:05,064 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #3)
+2025-10-01 11:38:05,064 - Agent-Helper-3 - INFO - Received help request #3 from Requestor
+2025-10-01 11:38:05,064 - Agent-Helper-2 - INFO - Received help request #3 from Requestor
+2025-10-01 11:38:05,743 - Agent-Requestor - INFO - Received DENIAL from Helper-1 for Request #3
+2025-10-01 11:38:05,744 - Agent-Helper-1 - INFO - Sent HELP_NO: No_3! (Request #3)
+2025-10-01 11:38:05,744 - Agent-Helper-1 - INFO - Decided to DENY for request #3
+2025-10-01 11:38:05,932 - Agent-Requestor - INFO - Received HELP from Helper-3 for Request #3
+2025-10-01 11:38:05,932 - Agent-Helper-3 - INFO - Sent HELP_OK: Ok_3! (Request #3)
+2025-10-01 11:38:05,933 - Agent-Helper-3 - INFO - Decided to HELP for request #3
+2025-10-01 11:38:06,820 - Agent-Requestor - INFO - Received HELP from Helper-2 for Request #3
+2025-10-01 11:38:06,820 - Agent-Helper-2 - INFO - Sent HELP_OK: Ok_3! (Request #3)
+2025-10-01 11:38:06,821 - Agent-Requestor - INFO - ✓ Request #3 SATISFIED! (2 helpers found in 1.76s)
+2025-10-01 11:38:06,821 - Agent-Helper-2 - INFO - Decided to HELP for request #3
+2025-10-01 11:38:12,066 - Agent-Helper-2 - INFO - Received help request #4 from Requestor
+2025-10-01 11:38:12,066 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #4)
+2025-10-01 11:38:12,066 - Agent-Helper-3 - INFO - Received help request #4 from Requestor
+2025-10-01 11:38:12,067 - Agent-Helper-1 - INFO - Received help request #4 from Requestor
+2025-10-01 11:38:13,353 - Agent-Requestor - INFO - Received DENIAL from Helper-3 for Request #4
+2025-10-01 11:38:13,354 - Agent-Helper-3 - INFO - Sent HELP_NO: No_4! (Request #4)
+2025-10-01 11:38:13,354 - Agent-Helper-3 - INFO - Decided to DENY for request #4
+2025-10-01 11:38:14,619 - Agent-Requestor - INFO - Received DENIAL from Helper-2 for Request #4
+2025-10-01 11:38:14,619 - Agent-Helper-2 - INFO - Sent HELP_NO: No_4! (Request #4)
+2025-10-01 11:38:14,620 - Agent-Helper-2 - INFO - Decided to DENY for request #4
+2025-10-01 11:38:14,730 - Agent-Requestor - INFO - Received DENIAL from Helper-1 for Request #4
+2025-10-01 11:38:14,731 - Agent-Helper-1 - INFO - Sent HELP_NO: No_4! (Request #4)
+2025-10-01 11:38:14,732 - Agent-Helper-1 - INFO - Decided to DENY for request #4
+2025-10-01 11:38:17,076 - Agent-Requestor - WARNING - ✗ Request #4 NOT SATISFIED (only 0 helpers)
+2025-10-01 11:38:18,437 - Agent-Helper-1 - INFO - Received help request #5 from Requestor
+2025-10-01 11:38:18,438 - Agent-Helper-3 - INFO - Received help request #5 from Requestor
+2025-10-01 11:38:18,438 - Agent-Helper-2 - INFO - Received help request #5 from Requestor
+2025-10-01 11:38:18,438 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #5)
+2025-10-01 11:38:19,447 - Agent-Requestor - INFO - Received HELP from Helper-2 for Request #5
+2025-10-01 11:38:19,447 - Agent-Helper-2 - INFO - Sent HELP_OK: Ok_5! (Request #5)
+2025-10-01 11:38:19,448 - Agent-Helper-2 - INFO - Decided to HELP for request #5
+2025-10-01 11:38:20,123 - Agent-Requestor - INFO - Received DENIAL from Helper-1 for Request #5
+2025-10-01 11:38:20,123 - Agent-Helper-1 - INFO - Sent HELP_NO: No_5! (Request #5)
+2025-10-01 11:38:20,124 - Agent-Helper-1 - INFO - Decided to DENY for request #5
+2025-10-01 11:38:21,241 - Agent-Helper-3 - INFO - Decided NO RESPONSE for request #5
+2025-10-01 11:38:21,755 - Agent-Helper-1 - INFO - Received help request #6 from Requestor
+2025-10-01 11:38:21,755 - Agent-Helper-2 - INFO - Received help request #6 from Requestor
+2025-10-01 11:38:21,755 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #6)
+2025-10-01 11:38:21,756 - Agent-Helper-3 - INFO - Received help request #6 from Requestor
+2025-10-01 11:38:23,454 - Agent-Requestor - WARNING - ✗ Request #5 NOT SATISFIED (only 1 helpers)
+2025-10-01 11:38:23,920 - Agent-Requestor - INFO - Received HELP from Helper-3 for Request #6
+2025-10-01 11:38:23,921 - Agent-Helper-3 - INFO - Sent HELP_OK: Ok_6! (Request #6)
+2025-10-01 11:38:23,922 - Agent-Helper-3 - INFO - Decided to HELP for request #6
+2025-10-01 11:38:24,339 - Agent-Requestor - INFO - Received HELP from Helper-1 for Request #6
+2025-10-01 11:38:24,340 - Agent-Helper-1 - INFO - Sent HELP_OK: Ok_6! (Request #6)
+2025-10-01 11:38:24,341 - Agent-Requestor - INFO - ✓ Request #6 SATISFIED! (2 helpers found in 2.59s)
+2025-10-01 11:38:24,342 - Agent-Helper-1 - INFO - Decided to HELP for request #6
+2025-10-01 11:38:24,616 - Agent-Requestor - INFO - Received DENIAL from Helper-2 for Request #6
+2025-10-01 11:38:24,616 - Agent-Helper-2 - INFO - Sent HELP_NO: No_6! (Request #6)
+2025-10-01 11:38:24,617 - Agent-Helper-2 - INFO - Decided to DENY for request #6
+2025-10-01 11:38:28,474 - Agent-Helper-2 - INFO - Received help request #7 from Requestor
+2025-10-01 11:38:28,474 - Agent-Helper-1 - INFO - Received help request #7 from Requestor
+2025-10-01 11:38:28,475 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #7)
+2025-10-01 11:38:28,475 - Agent-Helper-3 - INFO - Received help request #7 from Requestor
+2025-10-01 11:38:29,854 - Agent-Requestor - INFO - Received HELP from Helper-2 for Request #7
+2025-10-01 11:38:29,854 - Agent-Helper-2 - INFO - Sent HELP_OK: Ok_7! (Request #7)
+2025-10-01 11:38:29,855 - Agent-Helper-2 - INFO - Decided to HELP for request #7
+2025-10-01 11:38:31,018 - Agent-Requestor - INFO - Received DENIAL from Helper-1 for Request #7
+2025-10-01 11:38:31,019 - Agent-Helper-1 - INFO - Sent HELP_NO: No_7! (Request #7)
+2025-10-01 11:38:31,019 - Agent-Helper-1 - INFO - Decided to DENY for request #7
+2025-10-01 11:38:31,034 - Agent-Helper-3 - INFO - Decided NO RESPONSE for request #7
+2025-10-01 11:38:33,417 - Agent-Helper-1 - INFO - Received help request #8 from Requestor
+2025-10-01 11:38:33,417 - Agent-Helper-3 - INFO - Received help request #8 from Requestor
+2025-10-01 11:38:33,418 - Agent-Helper-2 - INFO - Received help request #8 from Requestor
+2025-10-01 11:38:33,418 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #8)
+2025-10-01 11:38:33,491 - Agent-Requestor - WARNING - ✗ Request #7 NOT SATISFIED (only 1 helpers)
+2025-10-01 11:38:34,611 - Agent-Requestor - INFO - Received HELP from Helper-1 for Request #8
+2025-10-01 11:38:34,611 - Agent-Helper-1 - INFO - Sent HELP_OK: Ok_8! (Request #8)
+2025-10-01 11:38:34,612 - Agent-Helper-1 - INFO - Decided to HELP for request #8
+2025-10-01 11:38:35,230 - Agent-Requestor - INFO - Received DENIAL from Helper-2 for Request #8
+2025-10-01 11:38:35,230 - Agent-Helper-2 - INFO - Sent HELP_NO: No_8! (Request #8)
+2025-10-01 11:38:35,231 - Agent-Helper-2 - INFO - Decided to DENY for request #8
+2025-10-01 11:38:35,790 - Agent-Requestor - INFO - Received DENIAL from Helper-3 for Request #8
+2025-10-01 11:38:35,791 - Agent-Helper-3 - INFO - Sent HELP_NO: No_8! (Request #8)
+2025-10-01 11:38:35,792 - Agent-Helper-3 - INFO - Decided to DENY for request #8
+2025-10-01 11:38:38,428 - Agent-Requestor - WARNING - ✗ Request #8 NOT SATISFIED (only 1 helpers)
+2025-10-01 11:38:39,687 - Agent-Helper-1 - INFO - Received help request #9 from Requestor
+2025-10-01 11:38:39,687 - Agent-Helper-3 - INFO - Received help request #9 from Requestor
+2025-10-01 11:38:39,687 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #9)
+2025-10-01 11:38:39,688 - Agent-Helper-2 - INFO - Received help request #9 from Requestor
+2025-10-01 11:38:40,719 - Agent-Requestor - INFO - Received HELP from Helper-1 for Request #9
+2025-10-01 11:38:40,720 - Agent-Helper-1 - INFO - Sent HELP_OK: Ok_9! (Request #9)
+2025-10-01 11:38:40,721 - Agent-Helper-1 - INFO - Decided to HELP for request #9
+2025-10-01 11:38:41,109 - Agent-Requestor - INFO - Received DENIAL from Helper-2 for Request #9
+2025-10-01 11:38:41,109 - Agent-Helper-2 - INFO - Sent HELP_NO: No_9! (Request #9)
+2025-10-01 11:38:41,110 - Agent-Helper-2 - INFO - Decided to DENY for request #9
+2025-10-01 11:38:42,325 - Agent-Requestor - INFO - Received DENIAL from Helper-3 for Request #9
+2025-10-01 11:38:42,325 - Agent-Helper-3 - INFO - Sent HELP_NO: No_9! (Request #9)
+2025-10-01 11:38:42,325 - Agent-Helper-3 - INFO - Decided to DENY for request #9
+2025-10-01 11:38:43,671 - Agent-Helper-3 - INFO - Received help request #10 from Requestor
+2025-10-01 11:38:43,671 - Agent-Helper-1 - INFO - Received help request #10 from Requestor
+2025-10-01 11:38:43,671 - Agent-Requestor - INFO - Sent HELP_REQUEST: #NeedSupport! (Request #10)
+2025-10-01 11:38:43,671 - Agent-Helper-2 - INFO - Received help request #10 from Requestor
+2025-10-01 11:38:44,705 - Agent-Requestor - WARNING - ✗ Request #9 NOT SATISFIED (only 1 helpers)
+2025-10-01 11:38:45,182 - Agent-Requestor - INFO - Received HELP from Helper-3 for Request #10
+2025-10-01 11:38:45,183 - Agent-Helper-3 - INFO - Sent HELP_OK: Ok_10! (Request #10)
+2025-10-01 11:38:45,184 - Agent-Helper-3 - INFO - Decided to HELP for request #10
+2025-10-01 11:38:45,415 - Agent-Requestor - INFO - Received HELP from Helper-2 for Request #10
+2025-10-01 11:38:45,415 - Agent-Helper-2 - INFO - Sent HELP_OK: Ok_10! (Request #10)
+2025-10-01 11:38:45,416 - Agent-Requestor - INFO - ✓ Request #10 SATISFIED! (2 helpers found in 1.75s)
+2025-10-01 11:38:45,417 - Agent-Helper-2 - INFO - Decided to HELP for request #10
+2025-10-01 11:38:46,453 - Agent-Requestor - INFO - Received DENIAL from Helper-1 for Request #10
+2025-10-01 11:38:46,453 - Agent-Helper-1 - INFO - Sent HELP_NO: No_10! (Request #10)
+2025-10-01 11:38:46,454 - Agent-Helper-1 - INFO - Decided to DENY for request #10
+2025-10-01 11:38:56,318 - Agent-Requestor - INFO - ==================================================
+2025-10-01 11:38:56,319 - Agent-Requestor - INFO - QUORUM SATISFACTION STATISTICS
+2025-10-01 11:38:56,320 - Agent-Requestor - INFO - Total Requests Made: 10
+2025-10-01 11:38:56,320 - Agent-Requestor - INFO - Satisfied Requests: 4
+2025-10-01 11:38:56,321 - Agent-Requestor - INFO - Satisfaction Rate: 40.0%
+2025-10-01 11:38:56,322 - Agent-Requestor - INFO - ==================================================
