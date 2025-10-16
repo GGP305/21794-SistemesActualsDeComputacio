@@ -37,11 +37,11 @@ REST suits simple, loosely coupled negotiations where:
 Caveats vs. real consensus (e.g., Raft/Paxos):
 - No leader election or strict log/term guarantees
 - No fault-tolerance beyond best-effort retries
-- Possibility of live-lock without randomness bounds (mitigated here by tiny value range)
+- Possibility of live-lock without randomness bounds (mitigated here by tiny value range + generous timeouts > 0.2s)
 
 This demo is educational and not a production consensus algorithm.
 
-## Run with Docker (recommended)
+## Run
 
 1. Build and launch the three agents:
 
@@ -64,22 +64,6 @@ python .\scripts\trigger_run.py
 
 Stop with `Ctrl+C` and `docker compose down`.
 
-## Run locally without Docker
-
-```powershell
-# create venv (Windows PowerShell)
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-
-# start three terminals
-$env:AGENT_ID="agent1"; $env:PORT=5001; $env:PEERS="http://localhost:5002,http://localhost:5003"; python -m agent.app
-$env:AGENT_ID="agent2"; $env:PORT=5002; $env:PEERS="http://localhost:5001,http://localhost:5003"; python -m agent.app
-$env:AGENT_ID="agent3"; $env:PORT=5003; $env:PEERS="http://localhost:5001,http://localhost:5002"; python -m agent.app
-
-# in another terminal
-python .\scripts\trigger_run.py 1
-```
 
 ## Docker Compose packaging
 
@@ -87,6 +71,6 @@ The provided `docker-compose.yml` creates three services (`agent1`, `agent2`, `a
 
 ## Notes
 
-- The value range is small (1..3) to converge quickly; adjust via code if desired.
+- The value range is small (1..100) to converge quickly; adjust via code if desired.
 - Network failures are tolerated best-effort (short timeouts, ignore errors); persistent failures may prevent consensus.
 - Attempts count increments on each fresh local proposal.
