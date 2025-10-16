@@ -1,0 +1,33 @@
+
+services:
+  agent1:
+    build: .
+    container_name: agent1
+    environment:
+      - AGENT_ID=agent1
+      - PORT=5000
+      - PEERS=http://agent2:5000,http://agent3:5000
+    ports:
+      - "5001:5000"
+  agent2:
+    build: .
+    container_name: agent2
+    environment:
+      - AGENT_ID=agent2
+      - PORT=5000
+      - PEERS=http://agent1:5000,http://agent3:5000
+    ports:
+      - "5002:5000"
+  agent3:
+    build: .
+    container_name: agent3
+    environment:
+      - AGENT_ID=agent3
+      - PORT=5000
+      - PEERS=http://agent1:5000,http://agent2:5000
+    ports:
+      - "5003:5000"
+
+networks:
+  default:
+    name: consensus_net
