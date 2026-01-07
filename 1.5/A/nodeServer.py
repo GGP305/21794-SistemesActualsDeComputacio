@@ -45,7 +45,19 @@ class NodeServer(Thread):
         self.server_socket.close()
 
     def process_message(self, msg):
-        #TODO MANDATORY manage the messages according to the Maekawa algorithm (TIP: HERE OR IN ANOTHER FILE...)
+        msg_type = msg.get('msg_type')
+        src = msg.get('src')
+
         print("Node_%i receive msg: %s"%(self.node.id,msg))
+
+        if msg_type == 'REQUEST':
+            self.node.handle_request(msg, src)
+        elif msg_type == 'REPLY':
+            self.node.handle_reply(msg, src)
+        elif msg_type == 'RELEASE':
+            self.node.handle_release(msg, src)
+        else:
+            # Unknown message types are ignored but still logged above
+            pass
 
  
