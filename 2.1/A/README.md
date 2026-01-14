@@ -1,34 +1,142 @@
-# Accumulative Histogram with Intel TBB (Python)
+# Histograma con Intel TBB
 
-This example computes a cumulative histogram from a vector of numeric values and compares a sequential implementation with a parallel version that uses the Intel Threading Building Blocks (TBB) Python bindings.
+Este proyecto implementa un sistema de generación de histogramas utilizando paralelización con **Intel Threading Building Blocks (TBB)**. El programa compara el rendimiento entre una implementación secuencial y una paralela utilizando las primitivas de TBB.
 
-## What it does
-- Splits the input vector into blocked ranges so multiple threads count bins concurrently.
-- Uses `tbb.parallel_reduce` (classic bindings) or the newer `tbb.pool.Pool` API (recent PyPI wheels) to combine per-range local bin counts safely, then performs a prefix sum to build the accumulative histogram.
-- Falls back with a clear error if the TBB bindings are missing.
+## Descripción
 
-## Files
-- [histogram.py](histogram.py): Sequential and TBB-backed cumulative histogram implementations.
-- [main.py](main.py): Simple benchmark/verification driver.
-- [requirements.txt](requirements.txt): Python dependency list.
+El programa genera un conjunto de números aleatorios siguiendo una distribución exponencial y construye un histograma dividiéndolos en rangos. Implementa el patrón **Map-Reduce-Scan** en dos versiones:
 
-## Quick start
+- **Versión Secuencial**: Procesamiento lineal de los datos
+- **Versión Paralela (TBB)**: Utiliza `parallel_for`, `parallel_reduce` y `parallel_scan`
+
+## Características
+
+### Fases del Procesamiento
+
+1. **Mapeo**: Asigna cada número a su rango correspondiente
+2. **Reducción**: Cuenta los elementos en cada rango
+3. **Escaneo**: Calcula el histograma acumulado
+
+### Configuración
+
+- **Número de rangos**: 4 (configurable mediante `CANTIDAD_RANGOS`)
+- **Cantidad de elementos**: 10 (ajustable en `main()`)
+- **Valor máximo**: 120 (ajustable en `main()`)
+- **Distribución**: Exponencial con λ = 0.05
+- **Modo DEBUG**: Muestra información detallada de cada fase
+
+## Requisitos
+
+- **Compilador C++**: Compatible con C++17 o superior
+- **Intel TBB**: Threading Building Blocks instalado en el sistema
+
+## Compilación
+
 ```bash
-pip install -r requirements.txt
-python main.py
+g++ -std=c++17 -O3 main.cpp -ltbb -o histograma
 ```
 
-## Technical notes on the communication process
-- **Work decomposition:** The input vector is divided into `tbb.blocked_range` chunks (`grain_size` controls chunk size). TBB schedules these chunks to worker threads using work-stealing so idle threads pull new blocks, reducing tail latency.
-- **Local counting:** Each worker accumulates counts in a thread-local buffer to avoid lock contention while scanning its chunk.
-- **Reduction phase:** `parallel_reduce` merges local buffers with a user-defined `join` function, producing the global bin counts without explicit synchronization primitives.
-- **Prefix accumulation:** After reduction, a single-thread prefix sum turns raw bin counts into an accumulative histogram (cumulative distribution). This step is O(bins) and negligible compared to the scan.
-- **Determinism:** Bin edges are computed once and shared; the reduction order does not affect correctness because only integer additions are performed.
+## Ejecución
 
-## Parameters you may want to tune
-- `bins`: Number of histogram bins.
-- `grain_size`: Size of each blocked range passed to TBB; smaller values improve load balance, larger values reduce scheduling overhead.
+```bash
+./histograma
+```
 
-## Notes
-- The TBB Python wheel is published as `tbb` on PyPI. If you see "Parallel version skipped", ensure the package is installed and exposes either `parallel_reduce`/`blocked_range` or `tbb.pool.Pool` (the code will use whichever is available).
-- Tested with Python 3.11 on Windows; performance benefits depend on CPU core count and data size.
+## Salida del Programa
+
+El programa muestra:
+
+1. **Configuración de rangos**: Límites de cada rango
+2. **Datos de entrada**: Vector de números generados (en modo DEBUG)
+3. **Ejecución paralela (TBB)**:
+   - Fase 1: Mapeo
+   - Fase 2: Reducción
+   - Fase 3: Escaneo
+   - Resultado: Histograma acumulado
+   - Tiempo de ejecución
+4. **Ejecución secuencial**:
+   - Mismas fases y resultado
+   - Tiempo de ejecución
+
+### Ejemplo de Salida
+
+```
+========================================
+   CONFIGURACION DE RANGOS
+========================================
+Numero de rangos: 4
+
+  Rango 1: [0 - 30]
+  Rango 2: [31 - 60]
+  Rango 3: [61 - 90]
+  Rango 4: [91 - 120]
+
+Datos de entrada: { 2, 5, 8, 15, 23, 45, 67, 89, 102, 115 }
+
+========================================
+   EJECUCION PARALELA (TBB)
+========================================
+>>> Fase 1 - Mapeo:
+...
+Resultado: [ 5; 6; 8; 10; ]
+Tiempo transcurrido: 0.00234 seg
+========================================
+```
+
+## Primitivas TBB Utilizadas
+
+### parallel_for
+Paraleliza el mapeo de elementos a rangos, dividiendo el trabajo en bloques (`blocked_range`).
+
+### parallel_reduce
+Realiza la reducción paralela para contar elementos por rango, combinando resultados parciales.
+
+### parallel_scan
+Implementa el escaneo acumulativo en paralelo para obtener el histograma final.
+
+## Modo DEBUG
+
+Para activar/desactivar el modo debug, modifica la línea:
+
+```cpp
+#define DEBUG 1  // 1 para activar, 0 para desactivar
+```
+
+## Personalización
+
+### Cambiar el número de rangos
+
+```cpp
+const int CANTIDAD_RANGOS = 4;  // Modificar según necesidad
+```
+
+### Ajustar parámetros de generación
+
+En la función `main()`:
+
+```cpp
+const int CANTIDAD_ELEMENTOS = 10;    // Número de elementos
+const int VALOR_MAXIMO = 120;         // Valor máximo posible
+```
+
+### Modificar la distribución
+
+En `generarNumerosAleatorios()`:
+
+```cpp
+std::exponential_distribution<> distribucion(0.05);  // Cambiar lambda
+```
+
+## Estructura del Código
+
+- **Funciones auxiliares**: Generación de números, impresión, cálculo de índices
+- **Solución secuencial**: `ejecutarSecuencial()`
+- **Solución paralela**: `ejecutarParalelo()`
+- **Función principal**: `main()` - Coordina la ejecución y medición de tiempos
+
+## Notas
+
+- Los datos se generan con distribución exponencial para simular escenarios reales
+- Los números se ordenan antes del procesamiento para facilitar la depuración
+- El tiempo de ejecución se mide con `tbb::tick_count` para mayor precisión
+- La comparación de tiempos permite evaluar el beneficio de la paralelización
